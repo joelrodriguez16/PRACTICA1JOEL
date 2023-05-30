@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale=1.0, maximun-scale=1.0">
+    <meta name="author" content="Rodriguez Joel">
+    <meta name="description" content="Practica General de direcciones, tablas, formularios y multimedia">
+    <meta name="keywords" content="programacion, html, php, etiquetas, tablas">
+    <title>Universidades</title>
+  </head>
+  <body>
+    <table width="100%">
+      <thead>
+        <tr>
+          <th colspan="4">
+            <img src="img/ucentral.jpg" alt="Universidad" width="100%" height="300px">
+          </th>
+        </tr>
+        <tr>
+          <th colspan="4">
+            <p style="text-align: center;font-size: 40px;font-family: 'Times New Roman';color: rgb(59, 59, 128);">
+              UNIVERSIDADES DEL ECUADOR
+            </p>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <a href="index.html"><p style="color: rgb(192, 75, 75)">Inicio</p></a>
+          </th>
+          <th>
+            <a href="univerdidades/carreras.html"><p style="color: rgb(192, 75, 75)">Carreras</p></a>
+          </th>
+          <th>
+            <a href="univerdidades/docentes.html"><p style="color: rgb(192, 75, 75)">Docentes</p></a>
+          </th>
+          <th>
+            <a href="contacto.html"><p style="color: rgb(192, 75, 75)">Contacto</p></a>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td colspan="4" bgcolor="red" height="8px"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p><label for="Camponombre">Nombres:</label>
+                    <input type="text" name="Nombres" id="Camponombre" placeholder="Ingrese sus nombre completo" required></p>
+            </td>
+            <td colspan="2">
+                <p><label for="Camponivel">Nivel:</label>
+                    <input type="radio" name= "Camponivel">Pregrado
+                    <input type="radio" name= "Camponivel">Posgrado
+                  </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p><label for="Campoape">Apellidos:</label>
+                    <input type="text" name="Apellidos" id="Campoape" placeholder="Ingrese sus apellidos completos" required></p>
+            </td>
+            <td colspan="2">
+                <p><label for="Campofecha">Fecha de nacimiento:</label>
+                    <input type="date" value="1980-01-13" min="1970-1-26" max="2022-12-31"></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p><label for="Campocedula">Cedula:</label>
+                    <input type="text" name="numero" id="Campocedula" placeholder="Ingrese el numero de cedula" required></p>
+            </td>
+            <td colspan="2">
+                <p>
+                    <label for="Campoemail">E-mail:</label>
+                    <input type="email" name="email" id="Campoemail" placeholder="usuario@gmail.com">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p>
+                    <label for= "Observacion">Observacion:</label>
+                    <textarea id="Observacion" name="Observacion" placeholder="Agrege alguna observacion" rows="8" cols="40"></textarea>
+                </p>
+            </td>
+            <td colspan="2">
+                <p>
+                    <label for="Camposeleccion">Universidades</label>
+                    <select>
+                        <option>Pontificia Universidad Católica del Ecuador</option>
+                        <option>Universidad de las Fuerzas Armadas</option>
+                        <option>Universidad Tecnica Particular de Loja</option>
+                        <option>Universidad Central del Ecuador</option>
+                        <option>Universidad Nacional de Chimborazo</option>
+                        <option>Universidad Estatal de Milagro</option>
+                        <option>Universidad Técnica de Manabi</option>
+                        <option>Universidad Agraria del Ecuador</option>
+                    </select>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot style="text-align: center;">
+        <tr>
+            <td colspan="2">
+                <h4>ELABORADO POR: RODRIGUEZ BAMBA JOEL</h4>
+                <h4>TODOS LOS DERECHOS RESERVADOS - 2023</h4>
+            </td>
+            <td olspan="2">
+                <input type="submit" value="Enviar">
+                <input type="reset">
+            </td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
